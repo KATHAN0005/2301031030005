@@ -1,0 +1,427 @@
+.title,
+.welcomeBack {
+  position: relative;
+  line-height: 100%;
+  font-family: var(--body-large-regular);
+  text-align: left;
+}
+.welcomeBack {
+  width: 120px;
+  font-size: var(--body-large-regular-size);
+  color: var(--text-secondary);
+  display: none;
+}
+.title {
+  font-size: var(--font-size-34xl);
+  font-weight: 600;
+  color: var(--foreground-high);
+  white-space: nowrap;
+}
+.firstFrame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px 0;
+}
+.icongoogleOriginal {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loginNow {
+  position: relative;
+  font-size: var(--body-large-regular-size);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--body-large-regular);
+  color: var(--container-primary);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base);
+  background-color: var(--outline-primary);
+  height: 48px;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 0 8px;
+  min-width: 168px;
+}
+.button1:hover,
+.button:hover {
+  background-color: var(--color-lightsteelblue);
+}
+.iconfacebookOriginal {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loginNow1 {
+  position: relative;
+  font-size: var(--body-large-regular-size);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--body-large-regular);
+  color: var(--container-primary);
+  text-align: left;
+}
+.button1,
+.orCondition {
+  display: flex;
+  flex-direction: row;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base);
+  background-color: var(--outline-primary);
+  height: 48px;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 0 8px;
+  min-width: 168px;
+}
+.orCondition {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.loginFrames,
+.or,
+.orCondition {
+  align-self: stretch;
+}
+.or {
+  position: relative;
+  font-size: var(--body-large-regular-size);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--body-large-regular);
+  color: var(--foreground-low);
+  text-align: center;
+}
+.loginFrames {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px 0;
+}
+.email {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-large-regular-size);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-family: var(--body-large-regular);
+  color: var(--foreground-default);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.inputField,
+.parentFrame {
+  display: flex;
+  max-width: 100%;
+}
+.parentFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-large-regular);
+  font-size: var(--body-medium-regular-size);
+  background-color: transparent;
+  height: 14px;
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  color: var(--foreground-default);
+  text-align: left;
+  align-items: center;
+  min-width: 300px;
+  white-space: nowrap;
+}
+.iconeye {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+}
+.iconeyeWrapper {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.inputText,
+.inputTextWrapper,
+.passwordFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputText {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 3px solid var(--outline-primary);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-lgi) var(--padding-xs)
+    var(--padding-smi);
+  gap: 0 5px;
+}
+.inputTextWrapper,
+.passwordFrame {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.passwordFrame {
+  flex-direction: column;
+  gap: 12px 0;
+}
+.forgot,
+.password {
+  position: relative;
+  font-size: var(--body-large-regular-size);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-family: var(--body-large-regular);
+}
+.password {
+  flex: 1;
+  color: var(--foreground-default);
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+  max-width: 100%;
+}
+.forgot {
+  color: var(--foreground-high);
+  text-align: right;
+}
+.context,
+.passwordParent {
+  display: flex;
+  max-width: 100%;
+}
+.passwordParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.context {
+  width: calc(100% - 56px);
+  border: 0;
+  outline: 0;
+  font-family: var(--body-large-regular);
+  font-size: var(--body-medium-regular-size);
+  background-color: transparent;
+  height: 14px;
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  color: var(--foreground-high);
+  text-align: left;
+  align-items: center;
+  min-width: 300px;
+}
+.iconeye1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconeyeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.input,
+.inputText1,
+.passwordFrame1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputText1 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--outline-default);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-mid) var(--padding-xs)
+    var(--padding-mini);
+  gap: 0 5px;
+}
+.input,
+.passwordFrame1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.passwordFrame1 {
+  gap: 12px 0;
+}
+.loginNow2 {
+  position: relative;
+  font-size: var(--font-size-15xl);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--body-large-regular);
+  color: var(--foreground-oncolor);
+  text-align: left;
+  white-space: nowrap;
+}
+.button2,
+.emailFrame {
+  align-self: stretch;
+  display: flex;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base);
+  background-color: var(--container-primary);
+  height: 48px;
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.button2:hover {
+  background-color: var(--color-dodgerblue);
+}
+.emailFrame {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  max-width: 100%;
+}
+.alreadyHaveAn,
+.logIn {
+  position: relative;
+  font-size: var(--body-large-regular-size);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-family: var(--body-large-regular);
+  color: var(--foreground-high);
+  text-align: left;
+}
+.logIn {
+  color: var(--color-red);
+}
+.accountLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+  max-width: 100%;
+}
+.form,
+.signUpLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.signUpLink {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.form {
+  margin: 0;
+  width: 676px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    180deg,
+    rgba(58, 209, 45, 0.32),
+    rgba(1, 2, 0, 0.32)
+  );
+  box-shadow: 20px 40px 60px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(100px);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  justify-content: center;
+  padding: var(--padding-29xl) var(--padding-52xl);
+  gap: 32px 0;
+  min-width: 676px;
+  min-height: 858px;
+  z-index: 1;
+}
+@media screen and (max-width: 1725px) {
+  .form {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .form {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: var(--font-size-23xl);
+    line-height: 42px;
+  }
+  .inputText,
+  .inputText1,
+  .orCondition,
+  .passwordParent {
+    flex-wrap: wrap;
+  }
+  .loginNow2 {
+    font-size: var(--font-size-8xl);
+    line-height: 27px;
+  }
+  .accountLabel {
+    flex-wrap: wrap;
+  }
+  .form {
+    gap: 32px 0;
+    padding: var(--padding-12xl) var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-13xl);
+    line-height: 32px;
+  }
+  .loginNow2 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+}

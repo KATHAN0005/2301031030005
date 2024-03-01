@@ -1,0 +1,235 @@
+.handrawnBarbecueElements1Icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.khandviIcon {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 7px;
+  top: 9px;
+  transform: scale(1.192);
+}
+.wrapperKhandvi {
+  height: 286px;
+  width: 286px;
+  position: relative;
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dalMakhani,
+.khChild {
+  position: relative;
+  max-width: 100%;
+}
+.khChild {
+  height: 200px;
+  width: 1390px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-saddlebrown);
+  box-shadow: 3px 4px 10.8px 2px rgba(0, 0, 0, 0.21);
+  display: none;
+}
+.dalMakhani {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.dalMakhaniLabel,
+.kh {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.kh {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-saddlebrown);
+  box-shadow: 3px 4px 10.8px 2px rgba(0, 0, 0, 0.21);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-17xl) var(--padding-lg) 75px;
+  z-index: 1;
+}
+.dalMakhaniLabel {
+  width: 1390px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.handrawnBarbecueElement {
+  width: 1767px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.handrawnBarbecueElementWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-124xl);
+  color: var(--color-white);
+  font-family: var(--font-juvenilia);
+}
+.frameChild {
+  align-self: stretch;
+  width: 1764px;
+  position: relative;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-khaki);
+  display: none;
+  max-width: 100%;
+}
+.addChoppedOnions,
+.addChoppedTomatoes,
+.addCookedLentils,
+.addCreamIf,
+.addGingerGarlicPaste,
+.addTurmericPowder,
+.heatButterOr,
+.pressureCookSoaked,
+.rinseBlackLentils {
+  margin-bottom: 0;
+}
+.rinseBlackLentilsAndKidney {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 60px;
+}
+.rinseBlackLentilsContainer {
+  height: 551px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.rectangleParent,
+.rinseInstructionsInner {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 1764px;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-khaki);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-6xl) 0 var(--padding-17xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.rinseInstructionsInner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rinseInstructions {
+  width: 1862px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 35px 0;
+  max-width: 101%;
+  flex-shrink: 0;
+}
+.screen11,
+.secondaryFrame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.secondaryFrame {
+  width: 1866px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: 45px;
+  color: var(--color-black);
+  font-family: var(--font-imprima);
+}
+.screen11 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-19xl) 0 var(--padding-5xl);
+  gap: 42px 0;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+@media screen and (max-width: 1800px) {
+  .handrawnBarbecueElement {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .kh {
+    padding-left: 37px;
+    box-sizing: border-box;
+  }
+  .handrawnBarbecueElementWrapper {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .dalMakhani {
+    font-size: var(--font-size-38xl);
+  }
+  .rinseBlackLentilsContainer {
+    font-size: var(--font-size-17xl);
+  }
+  .rinseInstructions {
+    gap: 35px 0;
+  }
+  .screen11 {
+    gap: 42px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dalMakhani {
+    font-size: var(--font-size-17xl);
+  }
+  .rinseBlackLentilsContainer {
+    font-size: var(--font-size-8xl);
+  }
+}

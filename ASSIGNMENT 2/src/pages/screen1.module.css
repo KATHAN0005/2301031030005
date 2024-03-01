@@ -1,0 +1,57 @@
+.bgIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kathanFoodie,
+.kathanFoodie1 {
+  height: 269px;
+  width: 1640px;
+  display: inline-block;
+}
+.kathanFoodie {
+  position: absolute;
+  margin: 0 !important;
+  right: -11px;
+  bottom: -9px;
+  z-index: 1;
+}
+.kathanFoodie1 {
+  position: relative;
+  color: var(--color-black);
+  z-index: 2;
+}
+.rectangleShape,
+.screen1 {
+  position: relative;
+  display: flex;
+}
+.rectangleShape {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-219xl);
+  color: var(--color-greenyellow);
+  font-family: var(--font-juvenilia);
+}
+.screen1 {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 405px var(--padding-xl) 406px;
+  box-sizing: border-box;
+  cursor: pointer;
+}

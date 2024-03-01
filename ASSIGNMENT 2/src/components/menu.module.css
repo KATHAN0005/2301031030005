@@ -1,0 +1,53 @@
+.rectangleElement {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -3px;
+  left: -39px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkolivegreen);
+}
+.menu1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.menu,
+.rectangleElementParent {
+  display: flex;
+  flex-direction: row;
+}
+.rectangleElementParent {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.menu {
+  width: 285px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs) var(--padding-20xl);
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-59xl);
+  color: var(--color-white);
+  font-family: var(--font-juvenilia);
+}
+@media screen and (max-width: 900px) {
+  .menu1 {
+    font-size: var(--font-size-43xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .menu1 {
+    font-size: var(--font-size-28xl);
+  }
+}

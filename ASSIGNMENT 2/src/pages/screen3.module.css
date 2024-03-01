@@ -1,0 +1,197 @@
+.bgIcon,
+.kathanFoodie {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+}
+.bgIcon {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kathanFoodie {
+  right: -19px;
+  bottom: -1px;
+  display: inline-block;
+  z-index: 1;
+}
+.kathanFoodie1 {
+  height: 448px;
+  width: 1698px;
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameGroupKathanFoodie {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-219xl);
+  color: var(--color-greenyellow);
+  font-family: var(--font-juvenilia);
+}
+.maskGroupIcon,
+.wrapperMaskGroup {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.maskGroupIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  left: 7px;
+  top: 12px;
+  transform: scale(1.152);
+}
+.wrapperMaskGroup {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.gujarati,
+.gujaratiDish {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.gujaratiDish {
+  height: 235px;
+  width: 1146px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.gujarati {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xl) var(--padding-10xl) var(--padding-10xl);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.maskGroupIcon1,
+.wrapperMaskGroup1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.maskGroupIcon1 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  left: 7px;
+  top: 12px;
+  transform: scale(1.152);
+}
+.wrapperMaskGroup1 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.punjabi,
+.punjabiDish {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.punjabiDish {
+  height: 235px;
+  width: 1146px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.punjabi {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xl) var(--padding-10xl) var(--padding-10xl);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.frameGujaratiMasks,
+.screen3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGujaratiMasks {
+  width: 1442px;
+  align-items: flex-start;
+  gap: 89px 0;
+  max-width: 100%;
+  margin-top: -147px;
+  text-align: left;
+  font-size: var(--font-size-180xl);
+  color: var(--color-white);
+  font-family: var(--font-juvenilia);
+}
+.screen3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: center;
+  padding: 22px var(--padding-xl) var(--padding-61xl);
+  box-sizing: border-box;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+@media screen and (max-width: 750px) {
+  .kathanFoodie,
+  .kathanFoodie1 {
+    font-size: var(--font-size-76xl);
+  }
+  .gujaratiDish,
+  .punjabiDish {
+    font-size: var(--font-size-61xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameGujaratiMasks {
+    gap: 89px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kathanFoodie,
+  .kathanFoodie1 {
+    font-size: var(--font-size-40xl);
+  }
+  .gujaratiDish,
+  .punjabiDish {
+    font-size: var(--font-size-31xl);
+  }
+  .frameGujaratiMasks {
+    gap: 89px 0;
+  }
+}

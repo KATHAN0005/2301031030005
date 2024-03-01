@@ -1,0 +1,66 @@
+.frameChild {
+  align-self: stretch;
+  width: 1764px;
+  position: relative;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-khaki);
+  display: none;
+  max-width: 100%;
+}
+.forTemperingHeat,
+.greaseADhokla,
+.inAMixing,
+.onceDoneLet,
+.pourThisTempering,
+.steamTheBatter {
+  margin-bottom: 0;
+}
+.inAMixingBowlCombineChic {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-48xl);
+}
+.inAMixingContainer {
+  height: 551px;
+  width: 1703px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.chickpeaFlourMix,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-14xl);
+  background-color: var(--color-khaki);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-6xl) 0 var(--padding-17xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.chickpeaFlourMix {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-imprima);
+}
+@media screen and (max-width: 900px) {
+  .inAMixingContainer {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .inAMixingContainer {
+    font-size: var(--font-size-11xl);
+  }
+}

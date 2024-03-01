@@ -1,0 +1,124 @@
+.bgIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.foodie,
+.kathan {
+  margin: 0;
+}
+.kathanFoodie {
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: -11px;
+  bottom: -9px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.foodie1,
+.kathan1 {
+  margin: 0;
+}
+.kathanFoodie1 {
+  margin: 0;
+  height: 538px;
+  width: 838px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.kathanFoodieParent,
+.root,
+.screen2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.kathanFoodieParent {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.root,
+.screen2 {
+  box-sizing: border-box;
+}
+.root {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  min-width: 838px;
+  max-width: 100%;
+}
+.screen2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-92xl);
+  gap: 0 78px;
+  letter-spacing: normal;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-219xl);
+  color: var(--color-greenyellow);
+  font-family: var(--font-juvenilia);
+}
+@media screen and (max-width: 1725px) {
+  .root {
+    flex: 1;
+  }
+  .screen2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .root {
+    min-width: 100%;
+  }
+  .screen2 {
+    gap: 0 78px;
+    padding-left: var(--padding-36xl);
+    padding-right: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .kathanFoodie,
+  .kathanFoodie1 {
+    font-size: var(--font-size-76xl);
+  }
+  .screen2 {
+    gap: 0 78px;
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kathanFoodie,
+  .kathanFoodie1 {
+    font-size: var(--font-size-40xl);
+  }
+}

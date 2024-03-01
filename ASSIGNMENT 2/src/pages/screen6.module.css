@@ -1,0 +1,169 @@
+.handrawnBarbecueElements1Icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.undhiyuIcon {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 7px;
+  top: 9px;
+  transform: scale(1.192);
+}
+.wrapperUndhiyu {
+  height: 286px;
+  width: 286px;
+  position: relative;
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uChild,
+.undhiyu {
+  position: relative;
+  max-width: 100%;
+}
+.uChild {
+  height: 200px;
+  width: 1390px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-saddlebrown);
+  box-shadow: 3px 4px 10.8px 2px rgba(0, 0, 0, 0.21);
+  display: none;
+}
+.undhiyu {
+  margin: 0;
+  height: 144px;
+  width: 540px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.u {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-saddlebrown);
+  box-shadow: 3px 4px 10.8px 2px rgba(0, 0, 0, 0.21);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-xl) 41px 26px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.circle,
+.textFrame,
+.u {
+  display: flex;
+  max-width: 100%;
+}
+.textFrame {
+  width: 1390px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.circle {
+  width: 1767px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.circleWrapper,
+.instructionTextParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.circleWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-124xl);
+  color: var(--color-white);
+  font-family: var(--font-juvenilia);
+}
+.instructionTextParent {
+  width: 1862px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 35px 0;
+  max-width: 101%;
+  flex-shrink: 0;
+}
+.screen6,
+.screen6Inner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.screen6Inner {
+  width: 1866px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  max-width: 100%;
+}
+.screen6 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-19xl) 0 var(--padding-5xl);
+  gap: 42px 0;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+@media screen and (max-width: 1800px) {
+  .circle {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .circleWrapper {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .undhiyu {
+    font-size: var(--font-size-38xl);
+  }
+  .instructionTextParent {
+    gap: 35px 0;
+  }
+  .screen6 {
+    gap: 42px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .undhiyu {
+    font-size: var(--font-size-17xl);
+  }
+}
